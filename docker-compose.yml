@@ -4,6 +4,7 @@ example-web:
   command: bash -c "java -jar target/dwexample.jar server config.yml"
   ports:
     - 8080:8080
+    - 8081:8081
 
 example-db:
   container_name: example-db
